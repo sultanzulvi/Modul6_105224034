@@ -1,7 +1,10 @@
 package minimarket;
 
-import minimarket.produk;
-
 public class makananringan extends produk{
-    public String rasa;
+    String rasa;
+
+    public makananringan(String nama, int harga){
+        super(nama, harga);
+    }
+
 }
